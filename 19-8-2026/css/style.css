@@ -1,0 +1,29 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: red;
+}
+
+.Producto{
+    background-color: burlywood;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid gray;
+    margin: 20px;
+}
+
+.precio{
+    color: chartreuse;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+button{
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 10px;
+}
