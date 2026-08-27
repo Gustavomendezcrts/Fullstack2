@@ -29,5 +29,18 @@ formulario.addEventListener(
         console.log(apellido);
         console.log(correo);
         console.log(edad);
+    
+        const mensaje =
+            document.getElementById("mensaje");
+            if(
+                nombre === "" || 
+                apellido === "" ||
+                correo === "" ||
+                edad === ""
+            ){
+                mensaje.className = "alert alert-danger mt-3";
+                mensaje.textContent = "Debe completar todos los campos";
+                return;
+            }
     }
 );
