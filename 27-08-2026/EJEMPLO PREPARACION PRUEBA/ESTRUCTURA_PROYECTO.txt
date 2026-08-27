@@ -1,0 +1,9 @@
+TALLER_VALIDACION_JS
+│
+├── index.html
+│
+├── css
+│   └── estilos.css
+│
+└── js
+    └── validaciones.js
